@@ -53,3 +53,8 @@ The code in the folder `stitch_images` is an Image Stitching App built using Str
 5. **Stitching:** The app calculates a homography matrix based on the selected points and stitches the images together to create a panoramic view.
 ![image](https://github.com/naafey-aamer/cv_fundamentals/blob/main/stitch_images/images/stitched_result_naala.jpg)
 </details>
+
+## Structure From Motion (SFM)
+<details>
+<summary>Click to expand</summary>
+</details>
