@@ -6,6 +6,45 @@ Clone the repository and install the required packages with:
 ```
 pip3 install -r requirements.txt
 ```
+
+## Filter Banks
+<details>
+<summary>Click to expand</summary>
+<br>
+In Computer Vision, filter banks involve sets of filters used for image processing tasks like edge detection, blurring, or sharpening, often applied through convolution operations. These banks comprise various filters that isolate specific features within an image, employing convolution to modify or analyze the image for tasks such as enhancement or feature extraction.
+<br>
+<br>
+
+The code in the folder `filter bank` is an Image Filter App built using Streamlit and OpenCV. It allows users to upload an image and allows to play around and experiment with applying and combining various filters. Listed below are the available filters:
+<br>
+| Filter Name      | Description                                                                   |
+|------------------|-------------------------------------------------------------------------------|
+| Grayscale        | Converts the image to grayscale, removing color information.                   |
+| Blur             | Applies Gaussian blur, smoothing out details and reducing noise.               |
+| Edge Detection   | Detects edges using Canny algorithm, highlighting object boundaries.           |
+| Sepia            | Imparts a warm, brownish tone, resembling old-fashioned photos.                |
+| Invert Colors    | Inverts the colors of the image, creating a negative effect.                   |
+| Sharpen          | Enhances the contrast along edges, making the image appear sharper.            |
+| Emboss           | Creates a raised or engraved appearance by emphasizing edge differences.       |
+| Cartoonize       | Transforms the image into a cartoon-like representation.                       |
+| Box Blur         | Applies a box blur effect, averaging pixel values in a defined area.            |
+
+<br>
+
+
+1. **Run Streamlit App** using the command `streamlit run _main.py` and upload an image.
+![image](https://github.com/naafey-aamer/cv_fundamentals/blob/main/filter_bank/images/gui.png)
+
+2. **Apply a filter:** Check a filter from the list to apply to the image.
+![image](https://github.com/naafey-aamer/cv_fundamentals/blob/main/filter_bank/images/single.png)
+
+3. **Apply Multiple Filters:** Check multiple boxes to create a compounding effect.
+![image](https://github.com/naafey-aamer/cv_fundamentals/blob/main/filter_bank/images/multi1.png)
+
+4. **TO-DO:** Increase diversity in the filter bank.
+</details>
+
+
 ## Vanishing Point
 <details>
 <summary>Click to expand</summary>
